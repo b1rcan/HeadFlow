@@ -1,22 +1,3 @@
-# Virtual Environment
-env/
 venv/
-
-# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-
-# IDE
-.vscode/
-.idea/
-
-# Mac
 .DS_Store
-
-# Config
-config.json
