@@ -3,20 +3,16 @@ import mediapipe as mp
 import pyautogui
 import time
 
-# ====================
-# AYARLAR (HAREKET)
-# ====================
+ 
 DEADZONE = 3.2
 STOP_THRESHOLD = 1.2
-SENSITIVITY = 5.0
+SENSITIVITY = 4.0
 SMOOTHING_X = 0.1
 SMOOTHING_Y = 0.1
 
 pyautogui.FAILSAFE = False
 
-# ====================
-# BLINK AYARLARI
-# ====================
+ 
 EYE_CLOSED = 0.20
 CLICK_FRAMES = 2
 HOLD_FRAMES = 8
@@ -132,7 +128,7 @@ while True:
         if dpitch * prev_dpitch < 0:
             smooth_y = 0.0
 
-        # HARD STOP
+         
         if abs(dyaw) < STOP_THRESHOLD:
             smooth_x = 0.0
         else:

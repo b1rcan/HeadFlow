@@ -36,7 +36,7 @@ ALS, felç veya ampütasyon gibi nedenlerle ellerini kullanamayan bireylerin sad
 
 1. Repoyu klonla:
 ```bash
-git clone https://github.com/KULLANICI_ADIN/HeadFlow.git
+git clone https://github.com/b1rcan/HeadFlow.git
 cd HeadFlow
 ```
 
@@ -82,9 +82,9 @@ MIT License
 
 ## Geliştirici
 
-[Senin Adın]
-- GitHub: @kullanici_adin
-- Email: ornek@email.com
+[1hp]
+- GitHub: @b1rcan
+- Email: gorur.1.can@gmail.com
 
 ## Referanslar
 
@@ -99,10 +99,6 @@ Kaydet.
 
 ---
 
-## ADIM 2: .gitignore Dosyası Kontrol
-
-Eğer yoksa oluştur: .gitignore
-```
 venv/
 env/
 __pycache__/
